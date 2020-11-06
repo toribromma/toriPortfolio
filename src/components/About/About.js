@@ -49,7 +49,8 @@ export const About = () => {
             style={{
                 backgroundColor: "gray",
                 fontFamily: "Open Sans",
-                padding: "8px 20px"
+                padding: "8px 20px",
+                marginBottom: 5
             }}
             ><i
             style={{padding: 5}}
