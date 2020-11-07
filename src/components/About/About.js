@@ -5,7 +5,7 @@ export const About = () => {
         <section style={{
             display: "flex", 
             alignItems:"center", 
-            // alignContent: "center",
+            alignContent: "center",
             textAlign:"center",
             flexFlow:"column wrap",
             justifyContent: "center"}}>
@@ -42,20 +42,20 @@ export const About = () => {
                 <li>Newport Beach, CA 92660</li>
                 <li>1 (714) 702-0401</li>
                 <li>toribromma@gmail.com</li>
-            
             </ul>
-        </div>
             <button
             style={{
                 backgroundColor: "gray",
                 fontFamily: "Open Sans",
                 padding: "8px 20px",
-                marginBottom: 5
+                marginBottom: 5,
             }}
             ><i
             style={{padding: 5}}
              class="fas fa-download"></i>
             Download Resume</button>
+        </div>
+           
 
         
         </section>
