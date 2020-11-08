@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./style.css"
 export const Resume = () => {
     return(
         <section
@@ -8,14 +8,12 @@ export const Resume = () => {
             alignItems:"center", 
             alignContent: "center",
             textAlign:"center",
-            flexFlow:"column wrap",
+            // flexFlow:"row wrap",
             justifyContent: "center",
             backgroundColor: "white"
         }}>
-                <div style={{display: "flex",
-                flexFlow:"column wrap",
-
-            }}>
+                <div 
+          >
                 <div>
                     <h2><u>Education</u></h2>
                         <div>

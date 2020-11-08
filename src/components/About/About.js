@@ -1,5 +1,7 @@
 import React from "react";
 import profilePic from "../../images/profile1.jpg"
+import "./style.css"
+
 export const About = () => {
     return (
         <section style={{
@@ -7,26 +9,26 @@ export const About = () => {
             alignItems:"center", 
             alignContent: "center",
             textAlign:"center",
-            flexFlow:"column wrap",
             justifyContent: "center",
+
             }}>
-        <img alt="profile pic" 
+        <img className="avatar" alt="profile pic" 
         src={profilePic} 
         width={180} 
         height={180}
         style={{borderRadius: "50%", marginTop: 100}}
-        margin
         >
         </img>
         <div 
-        // margin={5}
         >
             <h2>About Me</h2>
-            <p style={{fontSize: 18, letterSpacing: -1}}>My name is Tori. I am a Full Stack ReactJS Developer</p>
+            <p style={{fontSize: 18, letterSpacing: -1}}>My name is Tori.</p>
+            <p>I am a Full Stack ReactJS Developer</p>
             <p style={{letterSpacing: -1}}>I enjoy creating user-friendly and responsive apps.</p>
         </div>
         <div 
-        style={{}}
+        style={{
+        }}
         >
             <h2>
                 Contact Details

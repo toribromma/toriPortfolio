@@ -67,3 +67,16 @@ h2 {
         letter-spacing: -1px;
     }
 }
+
+
+@media screen and (max-height: 450x) {
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: -1.5px;
+    }
+
+    p {
+        letter-spacing: -1px;
+    }
+}
