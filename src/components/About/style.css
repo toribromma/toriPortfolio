@@ -1,17 +1,26 @@
+section {
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    text-align: center;
+}
 
 
+/* .col {
+    flex: 1;
+} */
 
 @media screen and (max-height: 450px) {
-    h1 {
-        font-size: 30px;
-        letter-spacing: -1.5px;
-    }
-
-    p {
-        letter-spacing: -1px;
+    h2 {
+        font-size: 25px;
+        letter-spacing: 0px;
     }
 
     img {
         display: none;
     }
 }
+
+@media screen and (max-width: 500px) {
+    section {flex-flow: column wrap;}
+  }

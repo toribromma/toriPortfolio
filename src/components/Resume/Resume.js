@@ -6,9 +6,7 @@ export const Resume = () => {
         style={{
             display: "flex",
             alignItems:"center", 
-            alignContent: "center",
             textAlign:"center",
-            // flexFlow:"row wrap",
             justifyContent: "center",
             backgroundColor: "white"
         }}>

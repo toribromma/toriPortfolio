@@ -4,32 +4,22 @@ import "./style.css"
 
 export const About = () => {
     return (
-        <section style={{
-            display: "flex", 
-            alignItems:"center", 
-            alignContent: "center",
-            textAlign:"center",
-            justifyContent: "center",
-
-            }}>
+        <section>
         <img className="avatar" alt="profile pic" 
         src={profilePic} 
         width={180} 
         height={180}
-        style={{borderRadius: "50%", marginTop: 100}}
+        style={{borderRadius: "50%", flex: 0}}
         >
         </img>
-        <div 
+        <div className="col" 
         >
             <h2>About Me</h2>
-            <p style={{fontSize: 18, letterSpacing: -1}}>My name is Tori.</p>
+            <p style={{fontSize: 18}}>My name is Tori.</p>
             <p>I am a Full Stack ReactJS Developer</p>
-            <p style={{letterSpacing: -1}}>I enjoy creating user-friendly and responsive apps.</p>
+            <p>I enjoy creating user-friendly and responsive apps.</p>
         </div>
-        <div 
-        style={{
-        }}
-        >
+        <div className="col">
             <h2>
                 Contact Details
             </h2>
@@ -58,12 +48,10 @@ export const About = () => {
             }}
             ><i
             style={{padding: 5}}
-             class="fas fa-download"></i>
+            className="fas fa-download"></i>
             Download Resume</button>
         </div>
-           
 
-        
         </section>
     )
 }
