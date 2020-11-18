@@ -18,7 +18,7 @@ export const Navbar = () => {
                          to="section1"
                          spy={true}
                          smooth={true}
-                         offset={-30}
+                         offset={-70}
                          duration={500}
                         className="item">About</Link>
                         <Link
@@ -26,7 +26,7 @@ export const Navbar = () => {
                          to="section2"
                          spy={true}
                          smooth={true}
-                         offset={0}
+                         offset={-70}
                          duration={500}
                         className="item">Resume</Link>
                         <Link

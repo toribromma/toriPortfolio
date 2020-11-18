@@ -1,10 +1,7 @@
 import React from "react"
 export const Resume = (props) => {
     return(
-        <section className="resume" id={props.id}
-        style={{
-            backgroundColor: "white",
-        }}>
+        <section id={props.id}>
                 <div>
                     <h2><u>Education</u></h2>
                         <div>
