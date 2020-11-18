@@ -5,12 +5,17 @@ import { Navbar } from './components/Navbar/Navbar';
 import { Resume } from "./components/Resume/Resume";
 
 function App() {
+  
   return (
     <div>
     <Navbar/>
     <Header/>
-    <About/>
-    <Resume/>
+    <About 
+    id="section1"
+    />
+    <Resume
+    id="section2"
+    />
     
     </div>
   );

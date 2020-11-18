@@ -1,17 +1,17 @@
 import React from "react"
 import "./style.css"
-export const Resume = () => {
+export const Resume = (props) => {
     return(
-        <section
+        <section id={props.id}
         style={{
             display: "flex",
             alignItems:"center", 
             textAlign:"center",
             justifyContent: "center",
-            backgroundColor: "white"
+            backgroundColor: "white",
+            flexFlow: "column wrap"
         }}>
-                <div 
-          >
+
                 <div>
                     <h2><u>Education</u></h2>
                         <div>
@@ -21,10 +21,6 @@ export const Resume = () => {
                         </div>
                 </div>
                 <div>
-                <div style={{
-                    display: "flex",
-                    flexFlow:"column wrap"
-                    }}>
                     <h2><u>Work</u></h2>
                     <div>
                         <h3>Freelance</h3>
@@ -33,12 +29,14 @@ export const Resume = () => {
                     </div>
                     
                 </div>
-                </div>
+                <div>
+                    <h2><u>Skills</u></h2>
+                    <ul>
+                        <p>HTML, CSS, Javascript, React, Redux, Thunk, Hooks</p>
+                        <p>Express, Node, MongoDB, MySQL, Microservices, Encryption, JWT, OAuth</p>
+                    </ul>
                     
                 </div>
-                
-            
-    
         </section>
     )
 }

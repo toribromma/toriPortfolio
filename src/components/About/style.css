@@ -1,14 +1,12 @@
 section {
     display: flex;
     align-items: center ;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
 }
 
 
-/* .col {
-    flex: 1;
-} */
+
 
 @media screen and (max-height: 450px) {
     h2 {
@@ -19,8 +17,15 @@ section {
     img {
         display: none;
     }
+    
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     section {flex-flow: column wrap;}
+
+    img {
+        padding-top: 120px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
   }

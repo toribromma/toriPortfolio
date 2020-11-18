@@ -2,9 +2,9 @@ import React from "react";
 import profilePic from "../../images/profile1.jpg"
 import "./style.css"
 
-export const About = () => {
+export const About = (props) => {
     return (
-        <section>
+        <section id={props.id}>
         <img className="avatar" alt="profile pic" 
         src={profilePic} 
         width={180} 

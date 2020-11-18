@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-export const Header = () => {
+export const Header = (props) => {
     return(
         <section className="background">
             <header className="me">
