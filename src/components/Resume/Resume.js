@@ -3,14 +3,8 @@ export const Resume = (props) => {
     return(
         <section className="resume" id={props.id}
         style={{
-            display: "flex",
-            alignItems:"center", 
-            textAlign:"center",
-            justifyContent: "center",
             backgroundColor: "white",
-
         }}>
-
                 <div>
                     <h2><u>Education</u></h2>
                         <div>
