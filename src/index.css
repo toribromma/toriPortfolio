@@ -5,7 +5,7 @@ body {
   background-color: orange;
 }
 section {
-  margin-top: 100px;
+
   height: 100vh;
 }
 body {
@@ -19,3 +19,101 @@ code {
   font-family: "Open Sans",
     monospace;
 }
+
+section {
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 { 
+  font-weight: 700;
+  font-size: 70px;
+  text-shadow: 2px 2px gray;
+  letter-spacing: -3px;
+}
+
+
+@media screen and (max-height: 450px) {
+
+  h1 {
+    font-size: 30px;
+    letter-spacing: -1.5px;
+  }
+
+  h2 {
+      font-size: 25px;
+      letter-spacing: 0px;
+  }
+
+  img {
+      display: none;
+  }
+
+  p {
+    letter-spacing: -1px;
+  } 
+  
+}
+
+@media screen and (max-width: 800px) {
+  section {flex-flow: column wrap;}
+  h1 {
+    font-size: 40px;
+    letter-spacing: -1.5px;
+}
+}
+
+@media screen and (max-height: 600px) {
+  h1 {
+      font-size: 30px;
+      letter-spacing: -1.5px;
+  }
+
+  p {
+      letter-spacing: -1px;
+  }
+}
+
+.background {
+  display: flex;
+  background-image: url("./images/2.jpg");
+  margin: auto;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+h2 { 
+  font-weight: 700;
+  /* text-shadow: 2px 2px gray; */
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.headerText {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 1px;
+  /* font-style: italic; */
+  text-shadow: 1px 1px gray;
+}
+
+#links {
+  padding: 0 20px;
+}
+
+.linkList {
+  padding: 20px
+}
+

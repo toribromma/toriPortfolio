@@ -1,6 +1,5 @@
 import React from "react";
 import profilePic from "../../images/profile1.jpg"
-import "./style.css"
 
 export const About = (props) => {
     return (

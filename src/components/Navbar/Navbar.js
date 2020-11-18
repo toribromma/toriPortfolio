@@ -12,13 +12,13 @@ export const Navbar = () => {
     return(
 
             <nav style={{backgroundColor: "transparent"}}>
-                    <ul className="list">
+                    <div className="list">
                         <Link
                          activeClass="active"
                          to="section1"
                          spy={true}
                          smooth={true}
-                        //  offset={-70}
+                         offset={-30}
                          duration={500}
                         className="item">About</Link>
                         <Link
@@ -26,7 +26,7 @@ export const Navbar = () => {
                          to="section2"
                          spy={true}
                          smooth={true}
-                        //  offset={-70}
+                         offset={0}
                          duration={500}
                         className="item">Resume</Link>
                         <Link
@@ -46,7 +46,7 @@ export const Navbar = () => {
                          duration={500}
                         className="item">Contact</Link>
                         <Link onClick={scrollToTop} className="item">Back to Top</Link>
-                    </ul>
+                    </div>
             </nav>
     )
 }

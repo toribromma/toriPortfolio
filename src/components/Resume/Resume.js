@@ -1,15 +1,14 @@
 import React from "react"
-import "./style.css"
 export const Resume = (props) => {
     return(
-        <section id={props.id}
+        <section className="resume" id={props.id}
         style={{
             display: "flex",
             alignItems:"center", 
             textAlign:"center",
             justifyContent: "center",
             backgroundColor: "white",
-            flexFlow: "column wrap"
+
         }}>
 
                 <div>
