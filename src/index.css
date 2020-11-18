@@ -5,6 +5,7 @@ body {
   background-color: orange;
 }
 section {
+  margin-top: 100px;
   height: 100vh;
 }
 body {

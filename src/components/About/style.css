@@ -1,13 +1,14 @@
 section {
     display: flex;
     align-items: center ;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
 }
 
-
-
-
+img {
+    padding-top: 30px;
+    margin-top: 10px;
+}
 @media screen and (max-height: 450px) {
     h2 {
         font-size: 25px;
@@ -18,14 +19,11 @@ section {
         display: none;
     }
     
+    p {line-height: 0;}
 }
 
 @media screen and (max-width: 800px) {
     section {flex-flow: column wrap;}
-
-    img {
-        padding-top: 120px;
-        margin-top: 10px;
-        margin-bottom: -10px;
-    }
+    p {line-height: 1;
+    width:200px;}
   }

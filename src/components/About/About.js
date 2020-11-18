@@ -9,7 +9,7 @@ export const About = (props) => {
         src={profilePic} 
         width={180} 
         height={180}
-        style={{borderRadius: "50%", flex: 0}}
+        style={{borderRadius: "50%"}}
         >
         </img>
         <div className="col" 
