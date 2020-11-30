@@ -2,16 +2,15 @@ html,
 body {
   height: 100%;
   margin: 0;
-  background-color: orange;
   font-family: "Open Sans",
   sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
 section {
-  margin-top: 90px;
   height: 100vh;
   display: flex;
+  flex-flow: row wrap;
   align-items: center ;
   justify-content: center;
   text-align: center;
@@ -116,4 +115,6 @@ h2 {
 .linkList {
   padding: 20px
 }
+
+
 

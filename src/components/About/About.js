@@ -3,12 +3,12 @@ import profilePic from "../../images/profile1.jpg"
 
 export const About = (props) => {
     return (
-        <section id={props.id}>
+        <section id={props.id} style={{backgroundColor: "orange"}}>
         <img className="avatar" alt="profile pic" 
         src={profilePic} 
         width={180} 
         height={180}
-        style={{borderRadius: "50%"}}
+        style={{borderRadius: "40%"}}
         >
         </img>
         <div className="col" 

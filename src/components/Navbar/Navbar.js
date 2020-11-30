@@ -1,5 +1,6 @@
 import React from "react";
 import {Link, animateScroll as scroll} from "react-scroll";
+import { Projects } from "../Projects/Projects";
 import "./style.css";
 
 
@@ -9,16 +10,26 @@ export const Navbar = () => {
         scroll.scrollToTop();
       };
 
+    const hamburger = (e) => {
+        e.preventDefault();
+        var x = document.getElementById("myTopnav");
+    
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
     return(
 
-            <nav style={{backgroundColor: "transparent"}}>
-                    <div className="list">
+            <div className="topnav" id="myTopnav">
+                        <Link onClick={scrollToTop} className="item">Home</Link>
                         <Link
                          activeClass="active"
                          to="section1"
                          spy={true}
                          smooth={true}
-                         offset={-70}
+                         offset={-40}
                          duration={500}
                         className="item">About</Link>
                         <Link
@@ -26,7 +37,7 @@ export const Navbar = () => {
                          to="section2"
                          spy={true}
                          smooth={true}
-                         offset={-70}
+                         offset={-40}
                          duration={500}
                         className="item">Resume</Link>
                         <Link
@@ -34,20 +45,23 @@ export const Navbar = () => {
                          to="section3"
                          spy={true}
                          smooth={true}
-                         offset={-70}
+                         offset={-40}
                          duration={500}
-                        className="item">Works</Link>
+                        className="item">Projects</Link>
                         <Link
                          activeClass="active"
                          to="section4"
                          spy={true}
                          smooth={true}
-                         offset={-70}
+                         offset={-40}
                          duration={500}
                         className="item">Contact</Link>
-                        <Link onClick={scrollToTop} className="item">Back to Top</Link>
-                    </div>
-            </nav>
+
+                        <a href="hamburger button" className="icon" onClick={hamburger} >
+                            <i class="fa fa-bars"></i>
+                        </a>
+            </div>
+
     )
 }
 
