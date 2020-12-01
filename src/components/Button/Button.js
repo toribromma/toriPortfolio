@@ -4,12 +4,14 @@ const Button = (props) => {
     return(
     <button
     style={{
-        backgroundColor: "rgba(40,44,80,0.6)    ",
+        backgroundColor: "black",
         fontFamily: "Open Sans",
-        padding: "8px 20px",
+        padding: "8px 10px",
         margin: 5,
-        border: "transparent",
-        borderRadius: 2,
+        boxShadow: "2px 2px 2px grey",
+        // border: "transparent",
+        borderRadius: 4,
+        
     }}
     >
     {props.children}

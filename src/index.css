@@ -11,8 +11,8 @@ section {
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
-  align-items: center ;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -23,9 +23,8 @@ code {
 
 h1 { 
   font-weight: 700;
-  font-size: 70px;
   text-shadow: 2px 2px gray;
-  letter-spacing: -3px;
+  /* letter-spacing: -3px; */
 }
 
 
@@ -70,7 +69,7 @@ h1 {
 
 @media screen and (max-height: 600px) {
   h1 {
-      font-size: 30px;
+      font-size: 50px;
       /* letter-spacing: -1.5px; */
   }
 
@@ -92,14 +91,6 @@ h2 {
   /* text-shadow: 2px 2px gray; */
 }
 
-.me {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-}
-
 .headerText {
   font-size: 20px;
   font-weight: 600;
@@ -115,6 +106,21 @@ h2 {
 .linkList {
   padding: 20px
 }
+
+#section3 {
+  background-image: url(./images/1.jpg);
+}
+#section2 {
+  background-image: url(./images/3.jpg);
+}
+
+#box {
+  background-color: black;
+  height: 300px;
+  width: 200px;
+  border-radius: 2px;
+}
+
 
 
 

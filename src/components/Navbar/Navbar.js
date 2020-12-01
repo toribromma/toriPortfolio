@@ -1,6 +1,5 @@
 import React from "react";
 import {Link, animateScroll as scroll} from "react-scroll";
-import { Projects } from "../Projects/Projects";
 import "./style.css";
 
 
@@ -22,7 +21,7 @@ export const Navbar = () => {
   }
     return(
 
-            <div className="topnav" id="myTopnav">
+            <div style={{backgroundColor: "black"}} className="topnav" id="myTopnav">
                         <Link onClick={scrollToTop} className="item">Home</Link>
                         <Link
                          activeClass="active"

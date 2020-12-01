@@ -3,20 +3,21 @@ import profilePic from "../../images/profile1.jpg"
 
 export const About = (props) => {
     return (
-        <section id={props.id} style={{backgroundColor: "orange"}}>
+        <section id={props.id} style={{backgroundColor: "snow"}}>
         <img className="avatar" alt="profile pic" 
         src={profilePic} 
         width={180} 
         height={180}
-        style={{borderRadius: "40%"}}
+        style={{borderRadius: "50%"}}
         >
         </img>
-        <div className="col" 
+        <div
+        style={{width: 200}}
         >
             <h2>About Me</h2>
-            <p style={{fontSize: 18}}>My name is Tori.</p>
-            <p>I am a Full Stack ReactJS Developer</p>
-            <p>I enjoy creating user-friendly and responsive apps.</p>
+            {/* <p>My name is Tori.</p>
+            <p>I am a Full Stack ReactJS Developer</p> */}
+            <p>I enjoy creating user-friendly and web responsive apps.</p>
         </div>
         <div className="col">
             <h2>
@@ -37,7 +38,7 @@ export const About = (props) => {
             </ul>
             <button
             style={{
-                backgroundColor: "rgba(40,44,80,0.6)    ",
+                backgroundColor: "rgba(40,44,80,1)    ",
                 fontFamily: "Open Sans",
                 padding: "8px 20px",
                 marginBottom: 5,

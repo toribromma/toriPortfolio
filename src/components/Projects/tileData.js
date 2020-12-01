@@ -1,5 +1,5 @@
 import image from "../../images/airbnb3.png";
-import image2 from "../../images/societe.png";
+import image5 from "../../images/cookitapp.png"
 import image3 from "../../images/wmp.png";
 import image4 from "../../images/overtime.png";
 
@@ -13,15 +13,15 @@ const tileData = [
         githubLink: "https://github.com/toribromma/airbnb-bargain",
         deployedLink: "https://warm-scrubland-68417.herokuapp.com/",
     },
-    {
-        img: image2,
-        title: "Societe",
-        _id: "2",
-        description: "Youtube, Spotify, and Chat ALL-IN-ONE!",
-        technologies: "React.js, Redux, Thunk, Express, Node, MongoDB, Passport, Bcrypt, JWToken",
-        githubLink: "https://github.com/BrianHdz/Project-3",
-        deployedLink: "https://polar-brushlands-16053.herokuapp.com/"
-    },
+    // {
+    //     img: image2,
+    //     title: "Societe",
+    //     _id: "2",
+    //     description: "Youtube, Spotify, and Chat ALL-IN-ONE!",
+    //     technologies: "React.js, Redux, Thunk, Express, Node, MongoDB, Passport, Bcrypt, JWToken",
+    //     githubLink: "https://github.com/BrianHdz/Project-3",
+    //     deployedLink: "https://polar-brushlands-16053.herokuapp.com/"
+    // },
     {
         img: image3,
         title: "Weekly Meal Planner",
@@ -36,9 +36,18 @@ const tileData = [
         title: "Overtime Calc",
         _id: "4",
         description: "Simple Overtime hours calculator",
-        technologies: "React.js",
+        technologies: "React.js, Javascript, CSS, HTML5, Node.js",
         githubLink: "https://github.com/toribromma/overtimeCalculator",
         deployedLink: "https://toribromma.github.io/overtimeCalculator/"
+    },
+    {
+        img: image5,
+        title: "Cook it App",
+        _id: "4",
+        description: "Log into a secure network and extract recipes. Filter through them to find what you wish to cook!",
+        technologies: "React.js, MongoDB, React Hooks (UseContext, UseState, etc.), Express, and Node.js, JWToken, Bcrypt ",
+        githubLink: "https://github.com/toribromma/CookIt",
+        deployedLink: "https://cookitapp1.herokuapp.com/"
     },
     
     
