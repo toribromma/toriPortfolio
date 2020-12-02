@@ -3,7 +3,7 @@ import profilePic from "../../images/profile1.jpg"
 
 export const About = (props) => {
     return (
-        <section id={props.id} style={{backgroundColor: "snow"}}>
+        <section id={props.id} style={{backgroundColor: "snow", flexDirection:"column"}}>
         <img className="avatar" alt="profile pic" 
         src={profilePic} 
         width={180} 
@@ -38,7 +38,7 @@ export const About = (props) => {
             </ul>
             <button
             style={{
-                backgroundColor: "rgba(40,44,80,1)    ",
+                backgroundColor: "rgba(40,44,80,1)",
                 fontFamily: "Open Sans",
                 padding: "8px 20px",
                 marginBottom: 5,

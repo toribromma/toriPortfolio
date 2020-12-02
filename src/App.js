@@ -4,7 +4,7 @@ import { Header } from './components/Header/Header';
 import { Navbar } from './components/Navbar/Navbar';
 import { Projects } from "./components/Projects/Projects";
 import { Resume } from "./components/Resume/Resume";
-
+import {Contact} from "./components/Contact/Contact"; 
 function App() {
   
   return (
@@ -18,6 +18,7 @@ function App() {
     id="section2"
     />
     <Projects/>
+    <Contact id="section4"/>
     
     </div>
   );

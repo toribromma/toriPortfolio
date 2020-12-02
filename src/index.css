@@ -9,6 +9,7 @@ body {
 }
 section {
   height: 100vh;
+  width: auto;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -24,9 +25,93 @@ code {
 h1 { 
   font-weight: 700;
   text-shadow: 2px 2px gray;
-  /* letter-spacing: -3px; */
+  font-size: 50px;
 }
 
+.background {
+  background-image: url("./images/2.jpg");
+  margin: auto;
+  background-size: cover;
+}
+
+h2 { 
+  font-weight: 700;
+  /* text-shadow: 2px 2px gray; */
+}
+
+.headerText {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  text-shadow: 1px 1px gray;
+}
+
+#links a {
+  padding: 10px 20px;
+  color: black;
+  border-radius: 2px;
+}
+
+.linkList {
+  padding: 20px
+}
+
+#section3 {
+  background-image: url(./images/1.jpg);
+}
+#section2 {
+  background-image: url(./images/3.jpg);
+}
+
+#box {
+  background-color: black;
+  height: 300px;
+  width: 200px;
+  border-radius: 2px;
+}
+
+a.item:hover {
+  color: lightcyan;
+}
+
+div#box {
+  padding: 5px 10px;
+}
+
+#contactHeading {
+  color: snow;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 24px;
+  background-color: #303030;
+  padding: 4px 10px;
+}
+
+#contactForm fieldset {
+  background-color: #303030;
+  border-radius: 2px;
+  border: transparent;
+  padding: 20px;
+  color: snow;
+}
+
+#contactLabel {
+  /* color: whitesmoke; */
+  margin-right: 50px; 
+  text-transform: uppercase;
+  font-weight: 600;
+ 
+}
+
+input#contactName, input#contactSubject {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+textarea#contactMessage {
+  border-radius: 5px;
+}
 
 @media screen and (max-height: 450px) {
 
@@ -88,47 +173,6 @@ h1 {
     height: fit-content;
   }
 
-}
-
-.background {
-  background-image: url("./images/2.jpg");
-  margin: auto;
-  background-size: cover;
-}
-
-h2 { 
-  font-weight: 700;
-  /* text-shadow: 2px 2px gray; */
-}
-
-.headerText {
-  font-size: 20px;
-  font-weight: 600;
-  padding: 5px;
-
-  text-shadow: 1px 1px gray;
-}
-
-#links {
-  padding: 10px 20px;
-}
-
-.linkList {
-  padding: 20px
-}
-
-#section3 {
-  background-image: url(./images/1.jpg);
-}
-#section2 {
-  background-image: url(./images/3.jpg);
-}
-
-#box {
-  background-color: black;
-  height: 300px;
-  width: 200px;
-  border-radius: 2px;
 }
 
 
