@@ -9,7 +9,6 @@ const Button = (props) => {
         padding: "8px 10px",
         margin: 5,
         boxShadow: "2px 2px 2px grey",
-        // border: "transparent",
         borderRadius: 4,
         
     }}

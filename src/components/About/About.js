@@ -15,8 +15,6 @@ export const About = (props) => {
         style={{width: 200}}
         >
             <h2>About Me</h2>
-            {/* <p>My name is Tori.</p>
-            <p>I am a Full Stack ReactJS Developer</p> */}
             <p>I enjoy creating user-friendly and web responsive apps.</p>
         </div>
         <div className="col">
